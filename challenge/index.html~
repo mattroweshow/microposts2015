@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <!-- InstanceBeginEditable name="doctitle" -->
+        <title>&#35;Microposts2015 &mdash; 5th Workshop on Making Sense of Microposts</title>
+        
+        <link rel="shortcut icon" href="../images/microposts_logo2015.ico" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" href="../resources/msm.css" type="text/css" />
+        <style type="text/css">
+            .dcseml {
+                display: none;
+            }
+        </style>
+        
+        <!-- InstanceEndEditable -->
+        <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+        <style type="text/css">
+        <!--
+        #Layer1 {
+            position:absolute;
+            width:1200px;
+            height:440px;
+            z-index:2;
+            left: 7px;
+            top: 153px;
+        }
+        #Layer2 {
+            position:absolute;
+            width:760px;
+            height:23px;
+            z-index:13;
+            left: -1px;
+            top: 119px;
+        }
+        #Layer3 {
+            position:absolute;
+            width:210px;
+            height:115px;
+            z-index:5;
+            left: 15px;
+            top: 15px;
+        }
+        #Layer4 {
+            position:absolute;
+            width:850px;
+            height:450px;
+            z-index:1;
+            left: 0px;
+            top: 0px;
+        }
+        #Layer5 {
+            position:absolute;
+            width:1200px;
+            height:92px;
+            z-index:4;
+            left: 2px;
+            top: 2px;
+        }
+        -->
+            </style>
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <div id="Layer4">
+                <div id="Layer2">
+                    <h2 id="head2"><a href="../index.html">Home &amp; News</a> | <a href="../motivation.html">Motivation &amp; Topics</a> | <a href="../socsci_track.html">SocSci Track</a> | <!-- a href="../challenge/index.html" --><b>Challenge</b><!--/a --> | <a href="../programme.html">Programme</a> || <a href="../submission_info.html">Submissions</a> | <a href="../deadlines.html">Dates</a --> | <a href="../organisation.html">Organisation</a> | <a href="../contact.html">Contact</a></h2>
+                </div>
+                <div id="Layer5">
+                    <div align="left">
+                        <table width=85%>
+                            <tr>
+                                <td align="left" width="10%">
+                                    <a name="top" id="top"></a><img src="../images/microposts_logo2015.png"/>
+                                </td>
+                                <td width="2%">&nbsp;
+                                </td>
+                                <td align="left">
+                                    <h2>Making Sense of Microposts (&#35;Microposts2015)</h2>
+                                    <h4 style="color: #069;"><i>Big things come in small packages</i></h4>
+                                </td>
+                            </tr>
+                        </table>
+                     </div>
+                    
+                      <div id="Layer1">
+                        
+                        <div id="Layer3">
+                            <div id="secondary">
+                                <div class="meta">
+                                    <h3>&nbsp;</h3>
+                                    <!-- InstanceBeginEditable name="linksBox" -->
+                                    <ul>
+                                        <li><a href="../index.html">Home</a></li>
+                                        <li><a href="../motivation.html">Motivation &amp; Topics</a></li>
+                                        <li><a href="../socsci_track.html">Social Sciences Track</a></li>
+                                        <li><a href="../challenge/index.html">NEEL Challenge</a></li>
+                                        <br />
+                                        <li><a href="../index.html#news">News</a></li>
+                                        <li><a href="../programme.html">Programme</a></li>
+                                        <li><a href="../submission_info.html">Submission Info</a></li>
+                                        <li><a href="../deadlines.html">Important Dates</a></li>
+                                        <li><a href="../organisation.html">Organisation</a></li>
+                                        <li><a href="../contact.html">Contact</a> </li>
+                                        <br />
+                                        <li>Previous Workshops<br />
+                                            <ul>
+                                                <li><a href="http://www.scc.lancs.ac.uk/microposts2014">#Microposts2014</a> @ WWW2014</li>
+                                                <li><a href="http://oak.dcs.shef.ac.uk/msm2013">&#35;MSM2013</a> @ WWW2013</li>
+                                                <li><a href="http://ceur-ws.org/Vol-838">&#35;MSM2012</a> @ WWW2012</li>
+                                                <li><a href="http://ceur-ws.org/Vol-718/">&#35;MSM2011</a> @ ESWC2011</li>
+                                            </ul>
+                                    <br />
+                                    </li>
+                                    <li><a href="http://www2015.it" target="_blank">WWW2015</a></li>
+                                    </ul>
+                                    <!-- InstanceEndEditable -->
+                                </div><!--meta-->
+                            </div><!--secondary-->
+                        </div><!-- end Layer3 -->
+                        
+                        <div id="mainEditRegion">
+                            <!-- InstanceBeginEditable name="mainEditRegion" -->
+                            <div id="main">
+
+
+                                <div class="sectionwithinset" id="introduction">
+                                    <h3><a name="introduction" id="introduction"></a>Named Entity rEcognition and Linking (NEEL) Challenge</h3>
+                                    <p>Microposts are a highly popular medium for sharing facts, opinions and/or emotions. Microposts comprise an invaluable wealth of data, ready to be mined for training predictive models. Following the success of the challenge in 2013/14, we are pleased to announce the NEEL challenge which will be part of  the #Microposts2015 Workshop at the World Wide Web 2015 conference.</p>
+
+                                    <p>The challenge task is to automatically recognise entities and their types from English Microposts, and link them to the corresponding English DBpedia 2014 resources (where a linkage exists). Participants will have to automatically extract expressions that are formed by discrete (and typically short) sequences of words (e.g., "Barack Obama", London, Rakuten) and recognise their types (e.g., Person, Location, Organisation) from a collection of Microposts. At the linking stage participants must disambiguate the named entity spotted to the corresponding DBpedia resource, or to a NIL reference if it does not match any resource in DBpedia. The 2015 challenge will also evaluate the end-to-end performance of the system, by measuring the computation time for analysing the corpus using each algorithm submitted.</p>
+
+                                    <p>We welcome and aim to attract participants from the previous Microposts workshop challenges, as well as <a href="http://trec.nist.gov/" target="_blank">TREC</a>, <a href="http://www.nist.gov/tac/2014/KBP" target="_blank">TAC KBP</a>, <a href="http://web-ngram.research.microsoft.com/ERD2014" target="_blank">ERD</a> shared tasks to the #Microposts2015 NEEL challenge.</p>
+
+									<h4>Award Sponsor:
+                                         <img src="../images/blank_space.png" width=15 height=45>
+                                         <a href="http://spaziodati.eu" target="_blank" style="border:0px"><img src="../images/spaziodati_logo.png" width="125px" alt="SpazioDati"/></a>
+                                     </h4>
+                                </div><!--sectionwithinset-->
+                                
+                                <div class="section" id="dataset">						
+                                    <h4><a name="dataset" id="dataset"></a>Dataset</h4>
+                                    <p>The dataset comprises tweets extracted from a collection of over 18 million tweets. They include event-annotated tweets provided by the <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/L010690/1" target="_blank">Redites project</a>, covering multiple noteworthy events from 2011 and 2013  (including the death of Amy Winhehouse, the London Riots, the Oslo bombing and the Westgate Shopping Mall shootout), and tweets extracted from the Twitter firehose in 2014. Since the challenge task is to automatically recognise and link entities, we have built our dataset considering both event and non-event tweets. While event tweets are more likely to contain entities, non-event tweets enable us to evaluate the performance of the system in avoiding false positives in the entity extraction phase. The training set is built on top of the entire corpus of the <a href="http://www.scc.lancs.ac.uk/microposts2014/challenge">NEEL 2014 Challenge</a>. We have further extended it for typing the entities and adding NIL references.
+                                    </p>
+
+                                    <p>Following the <a href="https://twitter.com/tos" target="_blank">Twitter ToS</a> we will only provide tweet IDs and annotations for the training set; and tweet IDs for the test set. We will also provide a common framework for mining these datasets from Twitter. The training set will be released as tsv, following the TAC KBP format, where each line consists of the following features:</p>
+                                    
+                                    <dl>
+                                        <dt></dt>
+                                        <dd><b>1st</b>: tweet id</dd>
+                                        <dd><b>2nd, 3rd</b>: start/end offsets expressed as the number of UTF8 characters starting from 0, aka the beginning of the tweet</dd>
+                                        <dd><b>4th</b>: link to DBpedia resource or NIL (there may be different NIL references in the corpus. Each NIL may be reused if there are multiple mentions in the text which represent the same entity)</dd>
+                                        <!--dd><b>5th</b>: salience (confidence score)</dd-->
+                                        <dd><b>5th</b>: type</dd>
+                                    </dl>
+                                    
+                                    <p>Tokens are separated by TABs. Entity mentions and URIs are listed according to their position in the tweet. We will notify release of the data set from <a href="https://twitter.com/Microposts2015">&#64;Microposts2015</a>, here and via the mailing list &ndash; subscribe to the <a href="https://groups.google.com/d/forum/microposts2015">#Microposts2015 Google group</a>.
+
+                                    </p>
+
+                                </div><!--dataset-->
+                        
+                                <div class="section" id="submission">
+                                    <h4><a name="submission" id="submission"></a> Evaluation &amp; Submission</h4>
+                                    
+                                    <h5>Evaluation</h5>
+                                    <p>Participants are required to implement their systems as a publicly accessible web service following a REST-based protocol, which will be publicised before the release of the training set, and submit (up to 10) contending entries to the registry of the NEEL challenge services. Upon receiving the registration of the service, calls to each entry will be scheduled in two different time windows:
+                                    
+                                    <dl>
+                                        <dt></dt>
+                                        <dd><b>D-Time</b> to test the APIs;</dd>
+                                        <dd><b>T-Time</b> for the final evaluation and metric computations.</dd>
+                                    </dl>
+
+                                        <br />In the final stage, each participant may submit up to 3 final contending entries.
+                                    </p>
+
+                                    <p>We will use the metrics proposed by <a href="https://github.com/wikilinks/neleval/wiki/Evaluation" target="_blank">TAC KBP 2014</a> and in particular we will focus on:</p>
+                                    
+
+                                    <dl>
+                                        <dt></dt>
+                                        <dd><b>[tagging]</b>&nbsp;&nbsp;&nbsp;strong_typed_mention_match (check entity name boundary and type)</dd>
+                                        <dd><b>[linking]</b>&nbsp;&nbsp;&nbsp;strong_link_match</dd>
+                                        <dd><b>[clustering]</b>&nbsp;&nbsp;&nbsp;mention_ceaf (KB/NIL detection)</dd>
+                                    </dl>
+                                    
+                                    Additionally, an another metric will be considered to estimate the computational time:
+                                    
+                                    <dl>    
+                                        <dd><b>[latency*]</b>&nbsp;&nbsp;&nbsp;it estimates the computational time</dd>
+                                    </dl>
+
+                                    <p>To ensure the correctness of the results and avoid any loss we will trigger N number of calls and statistically evaluate the metrics.</p>
+
+                                    <p><img src="../images/blank_space.png" height=5></p>
+                                    <h5>Accompanying written submission</h5>
+                                    <p>Description of approach followed &ndash; 2 page extended abstract. Further detail on the <a href="../submission_info.html">submissions</a> page</p>
+                                    
+                                    <p><img src="../images/blank_space.png" height=5></p>
+                                    <p><a href="#top" class="style1">back to top</a> </p>
+                                </div><!--evSub-->
+                                
+                                    
+                                <div class="section" id="dates">
+                                    <h4><a name="deadlines" id="deadlines"></a>Deadlines</h4>
+                                    <ul>
+                                        <li>Intent to participate: <del>20</del> <span style="color: #f00">26 Jan 2015 soft (register to http://goo.gl/forms/MLcSidVTbj)</span></b></li>
+                                        <li>Release of the REST API specs: 2 Feb 2015</li>
+                                        <li>Release of training set: 15 Feb 2015</li>
+                                        <br />
+                                        <li>Registration of contending entries: 2 Mar 2015</li>
+                                        <li>D-Time: 10-20 Mar 2015</li>
+                                        <li>T-Time: 11-20 Apr 2015 </li>
+                                        <br />
+                                        <li>Written submission: 07 Apr 2015</li>
+                                        <li>Acceptance notification: 27 Apr 2015</li>
+                                        <li>Camera-ready: 05 May 2015</li>
+                                    </ul>
+                                    <p><img src="../images/blank_space.png" height=5></p>
+                                  </div>  <!--dates-->
+                                  
+                                 <div class="section" id="prize">
+                                    
+                                    <h4>Prize</h4>
+                                    <p>
+                                    A prize of &#8364;1500, generously sponsored by <a href="http://spaziodati.eu" target="_blank">SpazioDati</a>, will be awarded to the highest ranking submission. SpazioDati is an Italian startup focused on text analytics and big data. One of SpazioDati's key components is <a href="https://dandelion.eu/products/datatxt"><b><i>dataTXT</i></b></a>, a text-analytics engine available on SpazioDati's API platform, Dandelion. The <b><i>dataTXT</i></b> named-entity extraction system has been proven to be very effective and efficient on short and fragmented texts, like Microposts. By teaming up with SpazioDati to make the challenge possible, the &#35;Microposts workshop organisers wish to highlight new entity extraction methods and algorithms to pursue in such challenging scenarios.
+                                    </p>
+                                                                                                     
+                                </div><!--prize-->                                                                                                
+                                
+                                 <div class="section" id="challenge_committee">
+                                    <h4>Challenge Chairs</h4>
+                                    <p><a href="http://people.kmi.open.ac.uk/cano" target="_blank">A. Elizabeth Cano</a>, Knowledge Media Institute, The Open University, UK</p>
+                                    <p><a href="http://www.di.unito.it/~rizzo" target="_blank">Giuseppe Rizzo</a>,  EURECOM, France</p>
+                                    
+                                    <p>&nbsp;</p>
+                                    <h4>Challenge Dataset Chairs</h4>
+                                    <p><a href="https://sites.google.com/site/missandreavarga" target="_blank">Andrea Varga</a>, Swiss Re, UK</p>
+                                    <p><a href="https://www.insight-centre.org/users/bianca-pereira" target="_blank">Bianca Pereira</a>, Insight at National University of Ireland, Galway</p>
+                                    
+                                    
+                                    <p>&nbsp;</p>
+                                    <h4>Evaluation  Committee</h4>
+ 
+                                        Gabriele Antonelli, SpazioDati, Italy </br>
+                                        Ebrahim Bagheri, Ryerson University, Canada<br />
+                                        Pierpaolo Basile, University of Bari, Italy<br />
+                                        Gr&#233;goire Burel, KMi, Open University, UK<br />
+                                        Leon Derczynski, The University of Sheffield, UK<br />
+                                        Milan Dojchinovski, Czech Technical University, Czech Republic </br>
+                                        Guillaume Er&#233;t&#233;o, Vigiglobe, France <br />
+                                        Andr&#233;s Garc&#237;a-Silva, Universidad Polit&#233;cnica de Madrid <br />
+                                        Anna Lisa Gentile, The University of Sheffield, UK<br />
+                                        Miguel Martinez-Alvarez, Signal, UK	</br>
+                                        Jos&#233; M. Morales del Castillo, El Colegio de M&#233;xico, Mexico <br />
+                                        Bernardo Pereira Nunes, PUC-Rio, Brazil<br />
+                                        Daniel Preo&#355;iuc-Pietro, The University of Sheffield, UK <br />
+                                        Giles Reger, The University of Manchester, UK </br>
+                                        Irina Temnikova, Qatar Computing Research Institute, Qatar<br />
+                                        Victoria Uren, Aston University, UK<br />
+                                        Ermir Qeli, Swiss Re, Switzerland<br />
+
+
+                                   <p><img src="../images/blank_space.png" height=25></p>
+                                   <p>Download the <a href="http://bit.ly/1E2yHf2"> CfP</a> </p>
+                                   <p><a href="../contact.html">Contact</a> workshop organisers or challenge chairs</p>
+                           
+                                    <p><img src="../images/blank_space.png" height=5></p>
+                                    <a href="#top" class="style1">back to top</a> </p>
+                                    
+                                </div>                                                              
+                                
+                            </div><!-- end div - main -->
+                            <!-- InstanceEndEditable -->
+                        </div>
+                    </div><!-- end Layer1 -->
+                </div><!-- end Layer5 -->
+            </div><!-- end Layer4 -->
+        </div><!-- end div - wrapper -->
+    </body>
+    <!-- InstanceEnd --></html>
